@@ -16,9 +16,9 @@
             <a class="logo" href="">Header Logo</a>
             <nav class="nav-menu">
                 <ul class="nobullets navbar">
-                    <li><a class="text link" href="/">header link one</a></li>
-                    <li><a class="text link" href="/">header link two</a></li>
-                    <li><a class="text link" href="/">header link three</a></li>
+                    <li><a class="text light" href="/">header link one</a></li>
+                    <li><a class="text light" href="/">header link two</a></li>
+                    <li><a class="text light" href="/">header link three</a></li>
                 </ul>
             </nav>
         </div>
@@ -28,11 +28,11 @@
         <!-- ============================================ -->
         <!--                    Hero                      -->
         <!-- ============================================ -->
-        <section class="hero">
-            <div class="container bg-dark">
+        <section class="hero bg-dark">
+            <div class="container">
                 <div class="left-section">
                     <span class="h-title light">This website is awesome</span>
-                    <span class="text light">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</span>
+                    <span class="text light">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</span>
                     <button class="button-1">Sign Up</button>
                 </div>
                 <div class="right-section">
@@ -48,22 +48,24 @@
         <!-- =============================================== -->
         <section class="gallery">
             <div class="g-title">Some random information.</div>
-            <div class="container space-between">
-                <div class="card">
-                    <img class="images" src="" alt="">
-                    <span class="text dark">this is some subtext under an illustration or image</span>
-                </div>
-                <div class="card">
-                    <img class="images" src="" alt="">
-                    <span class="text dark">this is some subtext under an illustration or image</span>
-                </div>
-                <div class="card">
-                    <img class="images" src="" alt="">
-                    <span class="text dark">this is some subtext under an illustration or image</span>
-                </div>
-                <div class="card">
-                    <img class="images" src="" alt="">
-                    <span class="text dark">this is some subtext under an illustration or image</span>
+            <div class="container">
+                <div class="card-grid">
+                    <div class="card">
+                        <img class="images" src="" alt="">
+                        <span class="text dark center">this is some subtext under an illustration or image</span>
+                    </div>
+                    <div class="card">
+                        <img class="images" src="" alt="">
+                        <span class="text dark center">this is some subtext under an illustration or image</span>
+                    </div>
+                    <div class="card">
+                        <img class="images" src="" alt="">
+                        <span class="text dark center">this is some subtext under an illustration or image</span>
+                    </div>
+                    <div class="card">
+                        <img class="images" src="" alt="">
+                        <span class="text dark center">this is some subtext under an illustration or image</span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -71,10 +73,12 @@
         <!-- ================================================= -->
         <!--                    Quotation                      -->
         <!-- ================================================= -->
-        <section class="quotation">
-            <div class="container bg-quote">
-                <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
-                <div class="source">-Thor, God of Thunder</div>
+        <section class="quotation bg-quote">
+            <div class="container">
+                <div class="quote-format">
+                    <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
+                    <div class="source">-Thor, God of Thunder</div>
+                </div>
             </div>
         </section>
 
@@ -83,9 +87,15 @@
         <!-- =============================================== -->
         <section class="sign-up">
             <div class="container">
-                <div class="notice">Call to action! It's time!</div>
-                <div class="text light">Sign up for our product by clicking that button right over there!</div>
-                <button class="button-2">Sign Up</button>
+                <div class="blue-box">
+                    <div class="left-section">
+                        <div class="notice light">Call to action! It's time!</div>
+                        <div class="text light">Sign up for our product by clicking that button right over there!</div>
+                    </div>
+                    <div class="right-section">
+                        <button class="button-2">Sign Up</button>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -93,8 +103,8 @@
     <!-- ============================================== -->
     <!--                    Footer                      -->
     <!-- ============================================== -->
-    <footer class="footer">
-        <div class="container bg-dark">
+    <footer class="footer bg-dark">
+        <div class="container">
             <p>Copyright © The Odin Project 2023</p>
         </div>
     </footer>
