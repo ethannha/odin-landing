@@ -5,99 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <title>Landing Page Design | The Odin Project</title>
+    <title>DogeSquad Inc. Landing Page</title>
 </head>
 <body>
     <!-- ================================================== -->
     <!--                    Navigation                      -->
     <!-- ================================================== -->
-    <div class="navigation bg-dark">
-        <div class="container">
-            <a class="logo" href="">Header Logo</a>
-            <nav class="nav-menu">
-                <ul class="nobullets navbar">
-                    <li><a class="text light" href="/">header link one</a></li>
-                    <li><a class="text light" href="/">header link two</a></li>
-                    <li><a class="text light" href="/">header link three</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+    <nav class="navbar">
+        <a href=""><img src="images/doge-icon.png" alt="logo" class="logo"> Header Logo</a>
+        <ul class="nav-links">
+            <li><a href="/">header link one</a></li>
+            <li><a href="/">header link two</a></li>
+            <li><a href="/">header link three</a></li>
+        </ul>
+    </nav>
 
     <main>
         <!-- ============================================ -->
         <!--                    Hero                      -->
         <!-- ============================================ -->
-        <section class="hero bg-dark">
-            <div class="container">
-                <div class="left-section">
-                    <span class="h-title light">This website is awesome</span>
-                    <span class="text light">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</span>
-                    <button class="button-1">Sign Up</button>
+        <div class="hero-section bg-dark">
+            <div class="hero-container">
+                <div class="hero-textbox">
+                    <h1>Henlo Hooman.</h1>
+                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo, vero consectetur repellat tenetur quas ipsa libero accusantium sed excepturi doloribus minus mollitia illo, natus eligendi delectus quaerat! A, laboriosam.</p>
+                    <button class="hero-button">Sign Up</button>
                 </div>
-                <div class="right-section">
-                    <div class="preview">
-                        <img src="" alt="this is a placeholder for an image">
-                    </div>
-                </div>
+                <img class="hero-img" src="images/doge.png" alt="this is a placeholder for an image">
             </div>
-        </section>
+        </div>
         
-        <!-- =============================================== -->
-        <!--                    Gallery                      -->
-        <!-- =============================================== -->
-        <section class="gallery">
-            <div class="g-title">Some random information.</div>
-            <div class="container">
-                <div class="card-grid">
-                    <div class="card">
-                        <img class="images" src="" alt="">
-                        <span class="text dark center">this is some subtext under an illustration or image</span>
-                    </div>
-                    <div class="card">
-                        <img class="images" src="" alt="">
-                        <span class="text dark center">this is some subtext under an illustration or image</span>
-                    </div>
-                    <div class="card">
-                        <img class="images" src="" alt="">
-                        <span class="text dark center">this is some subtext under an illustration or image</span>
-                    </div>
-                    <div class="card">
-                        <img class="images" src="" alt="">
-                        <span class="text dark center">this is some subtext under an illustration or image</span>
-                    </div>
+        <!-- ============================================ -->
+        <!--                    Squad                     -->
+        <!-- ============================================ -->
+        <div class="team-section">
+            <h1 class="title">Say hello to some of our specialist doges!</h1>
+            <div class="worker-container">
+                <div class="card">
+                    <img class="worker-img" src="" alt="">
+                    <div class="worker-text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="card">
+                    <img class="worker-img" src="" alt="">
+                    <div class="worker-text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="card">
+                    <img class="worker-img" src="" alt="">
+                    <div class="worker-text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="card">
+                    <img class="worker-img" src="" alt="">
+                    <div class="worker-text">this is some subtext under an illustration or image</div>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <!-- ================================================= -->
-        <!--                    Quotation                      -->
-        <!-- ================================================= -->
-        <section class="quotation bg-quote">
-            <div class="container">
-                <div class="quote-format">
-                    <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
-                    <div class="source">-Thor, God of Thunder</div>
-                </div>
-            </div>
-        </section>
+        <!-- ============================================= -->
+        <!--                    Quote                      -->
+        <!-- ============================================= -->
+        <div class="quote-section">
+            <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
+            <p>— Thor, God of Thunder</p>
+        </div>
 
         <!-- =============================================== -->
         <!--                    Sign Up                      -->
         <!-- =============================================== -->
-        <section class="sign-up">
-            <div class="container">
-                <div class="blue-box">
-                    <div class="left-section">
-                        <div class="notice light">Call to action! It's time!</div>
-                        <div class="text light">Sign up for our product by clicking that button right over there!</div>
-                    </div>
-                    <div class="right-section">
-                        <button class="button-2">Sign Up</button>
-                    </div>
+        <div class="signup-section">
+            <div class="signup-container">
+                <div class="left-section">
+                    <div class="notice">Call to action! It's time!</div>
+                    <p class="text">Sign up for our product by clicking that button right over there!</p>
                 </div>
+                <button class="signup-button">Sign Up</button>
             </div>
-        </section>
+        </div>
     </main>
 
     <!-- ============================================== -->
@@ -105,7 +87,11 @@
     <!-- ============================================== -->
     <footer class="footer bg-dark">
         <div class="container">
-            <p>Copyright © The Odin Project 2023</p>
+            <p>
+                Copyright 2023 © <a href="">DogeSquad Inc.</a>
+                <br>
+                In reference to <a href="https://www.theodinproject.com/">The Odin Project</a>
+            </p>
         </div>
     </footer>
 </body>
