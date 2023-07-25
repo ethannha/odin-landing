@@ -41,6 +41,7 @@ footer a {
     width: 100%;
     position: fixed;
     background-color: #1F2937;
+    gap: 16px;
 }
 
 .navbar a {
@@ -52,7 +53,8 @@ footer a {
 }
 
 .logo {
-    height: 40px;
+    height: 50px;
+    margin-top: 6px;
     margin-left: 24px;
     border: 2px solid black;
     padding: 2px;
@@ -81,6 +83,13 @@ footer a {
     color: #E5E7EB;
 }
 
+.nav-links a:hover {
+    background-color: #333;
+    color: white;
+    border-radius: 6px;
+    border-bottom: 2px solid white;
+    transition: width 5s;
+}
 
 .hero-section {
     display: flex;
@@ -88,6 +97,7 @@ footer a {
     align-items: center;
     background-color: #1F2937;
     color: #E5E7EB;
+    border-bottom: 1px solid black;
 }
 
 .hero-container {
@@ -139,9 +149,9 @@ footer a {
 .hero-img {
     object-fit: cover;
     flex: 1 1 auto;
-    max-width: 400px;
+    max-width: 300px;
     border: 2px solid black;
-    box-shadow: 2px 2px 3px;
+    box-shadow: 5px 5px 8px white;
 }
 
 .team-section {
@@ -161,30 +171,68 @@ footer a {
     padding: 48px;
     padding-top: 96px;
     text-align: center;
+    width: 100%;
+}
+
+.worker-container {
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     width: 300px;
     gap: 8px;
     padding: 24px;
     color: #1F2937;
 }
 
+.worker-img {
+    display: flex;
+    flex: 1 1 auto;
+    width: 260px;
+    border: 10px solid #3882F6;
+    border-top-color: blue;
+    border-left-color: blue;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 16px;
+    margin-bottom: 8px;
+}
+
+.worker-name:hover {
+    text-shadow: 2px 2px 5px #00cfc5;
+    transition: 1s;
+}
+
+.worker-text {
+    color: #1F2937;
+    font-size: 18px;
+}
+
 .quote-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
     color: #1F2937;
+    padding: 128px 72px 72px;
 }
 
 .quote {
     font-weight: 100;
+    font-size: 36px;
+    color: #1F2937;
+    width: 100%;
 }
 
 .quote-section p {
     font-weight: 900;
+    font-size: 18px;
+    color: #1F2937;
 }
